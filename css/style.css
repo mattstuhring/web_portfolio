@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: blue;
+  height: 750px;
+  width: 100%;
+}
+
+header .col-md-12 {
+  padding-top: 325px;
+  text-align: center;
+}
