@@ -9,12 +9,48 @@ font-family: 'Raleway', sans-serif;
 font-family: "Source Sans Pro", sans-serif;
 */
 
+/* ====================== Generic CSS ============== */
+
+.section-title {
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.section-title h2 {
+  position: relative;
+  text-align: center;
+  color: #333;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.section-title p {
+  color: #333;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.section-title h2:after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  width: 60px;
+  height: 1px;
+  background-color: #129CF3;
+  margin-left: -30px;
+}
+
 /* --------------------- Navbar ------------------------ */
 .navbar-default .navbar-nav > li > a {
   font-family: 'Raleway', sans-serif;
   color: white;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 18px;
   transition: all 1s;
   -webkit-transition: all 1s;
@@ -29,11 +65,8 @@ font-family: "Source Sans Pro", sans-serif;
 
 .navbar-default .navbar-brand {
   font-family: 'Mr Dafoe', cursive;
-  font-size: 50px;
+  font-size: 35px;
   color: aquamarine;
-}
-
-.navbar-brand {
   transition: all 1s;
   -webkit-transition: all 1s;
   -o-transition: all 1s;
@@ -113,4 +146,79 @@ header .col-md-12 {
 .btn-more:hover {
   background-color: mediumaquamarine;
   color: white;
+}
+
+/* ---------------------- About --------------------- */
+.about img {
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.left-feature-item {
+  position: relative;
+  padding-right: 90px;
+  margin-bottom: 65px;
+  text-align: right;
+  margin-top: 35px;
+}
+
+.left-feature-item-icon {
+  position: absolute;
+  right: 0;
+  top: -8px;
+  font-size: 40px;
+  color: #129CF3;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+}
+
+.left-feature-item h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 21px;
+  color: #333;
+}
+
+.left-feature-item p {
+  color: #333;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.right-feature-item {
+  position: relative;
+  padding-left: 90px;
+  margin-bottom: 65px;
+  margin-top: 35px;
+  text-align: left;
+}
+
+.right-feature-item-icon {
+  position: absolute;
+  left: 0;
+  top: -8px;
+  font-size: 40px;
+  color: #129CF3;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+}
+
+.right-feature-item h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 21px;
+  color: #333;
+}
+
+.right-feature-item p {
+  color: #333;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
 }
