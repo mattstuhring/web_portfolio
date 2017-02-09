@@ -66,7 +66,7 @@ font-family: "Source Sans Pro", sans-serif;
 .navbar-default .navbar-brand {
   font-family: 'Mr Dafoe', cursive;
   font-size: 35px;
-  color: aquamarine;
+  color: #129CF3;
   transition: all 1s;
   -webkit-transition: all 1s;
   -o-transition: all 1s;
@@ -128,8 +128,8 @@ header .col-md-12 {
 .btn-more:active,
 .btn-more:visited {
   background: transparent;
-  border-color: aquamarine;
-  color: aquamarine;
+  border-color: #129CF3;
+  color: #129CF3;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 30px;
@@ -144,7 +144,7 @@ header .col-md-12 {
 }
 
 .btn-more:hover {
-  background-color: mediumaquamarine;
+  background-color: #129CF3;
   color: white;
 }
 
@@ -152,6 +152,7 @@ header .col-md-12 {
 .about img {
   width: 100%;
   border-radius: 50%;
+  border: 5px solid aquamarine;
   margin-top: 30px;
 }
 
@@ -221,4 +222,67 @@ header .col-md-12 {
   font-size: 16px;
   font-weight: 300;
   line-height: 25px;
+}
+
+/* -------------------- Skills ----- --------------- */
+.skills i {
+  color: aquamarine;
+  font-size: 20px;
+}
+
+/*font-family: 'Mr Dafoe', cursive;
+font-family: 'Raleway', sans-serif;*/
+
+.tech-skills p {
+  /*font-family: "Source Sans Pro", sans-serif;*/
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  position: relative;
+  left: 35px;
+  bottom: 25px;
+  font-size: 18px;
+}
+
+.skills h3 {
+  color: #129CF3;
+  font-family: 'Raleway', sans-serif;
+}
+
+.skills h1 {
+  font-family: 'Mr Dafoe', cursive;
+  color: aquamarine;
+  font-size: 65px;
+  padding-bottom: 20px;
+}
+
+.skills-overlay {
+  background-color: black;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.tech-skills h3 {
+  margin-top: 10px;
+}
+
+.education h4 {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  position: relative;
+  left: 35px;
+  bottom: 31px;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.education h4 span {
+  font-size: 12px;
+  font-style: italic;
+}
+
+.education p {
+  position: relative;
+  bottom: 20px;
+  margin-left: 90px;
+  color: white;
 }
