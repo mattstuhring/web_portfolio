@@ -12,17 +12,16 @@ font-family: "Source Sans Pro", sans-serif;
 /* ====================== Generic CSS ============== */
 
 .section-title {
-  padding-top: 90px;
+  padding-top: 70px;
   padding-bottom: 50px;
 }
 
 .section-title h2 {
+  font-family: 'Mr Dafoe', cursive;
   position: relative;
   text-align: center;
-  color: #333;
-  font-size: 30px;
-  font-weight: 400;
-  text-transform: uppercase;
+  color: #129CF3;
+  font-size: 80px;
 }
 
 .section-title p {
@@ -41,7 +40,7 @@ font-family: "Source Sans Pro", sans-serif;
   left: 50%;
   width: 60px;
   height: 1px;
-  background-color: #129CF3;
+  background-color: lightgrey;
   margin-left: -30px;
 }
 
@@ -149,6 +148,10 @@ header .col-md-12 {
 }
 
 /* ---------------------- About --------------------- */
+.about {
+  padding-bottom: 15px;
+}
+
 .about img {
   width: 100%;
   border-radius: 50%;
@@ -225,6 +228,10 @@ header .col-md-12 {
 }
 
 /* -------------------- Skills ----- --------------- */
+.skills {
+  padding-bottom: 50px;
+}
+
 .skills i {
   color: #129CF3;
   font-size: 20px;
@@ -247,8 +254,18 @@ header .col-md-12 {
   color: #129CF3;
   font-size: 55px;
   padding-bottom: 5px;
-  border-bottom: 1px solid lightgrey;
   margin-bottom: 35px;
+  position: relative;
+}
+
+.skills h1:after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    bottom: 0;
+    left: 43%;
+    border-bottom: 1px solid lightgrey;
 }
 
 .education .fa-code {
@@ -281,6 +298,7 @@ header .col-md-12 {
 }
 
 .education p {
+  font-family: 'Raleway', sans-serif;
   position: relative;
   bottom: 20px;
   margin-left: 90px;
@@ -288,17 +306,18 @@ header .col-md-12 {
 
 /* -------------------- Work -------------------- */
 .work {
-  background-color: lightgrey;
+  background-color: whitesmoke;
   padding-bottom: 80px;
 }
 
 .bitesize img {
   width: 43%;
-  border: 1px solid white;
+  border: 1px solid #f8aa40;
 }
 
 .thumbnail {
-  padding: 0;
+  margin-bottom: 30px;
+  padding: 12px;
   border: none;
   border-radius: 0;
 }
@@ -307,10 +326,6 @@ header .col-md-12 {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-}
-
-.bitesize .thumbnail {
-  background-color: #f8aa40;
 }
 
 .thumbnail .caption {
@@ -397,6 +412,11 @@ header .col-md-12 {
 }
 
 /* ===================== Contact Me ============================ */
+.contact-me {
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
 .contact-me-form .form-control {
   display: block;
   width: 100%;
