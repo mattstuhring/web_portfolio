@@ -56,7 +56,6 @@
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Work</a></li>
-              <li><a href="#">Testimonials</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
@@ -115,8 +114,9 @@
               <p>Assembled, tested, and maintained various types of rocket engines—with specialized tools and electronic equipment—that are used on satellites, space probes, and other spacecraft.</p>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 text-center">
             <img class="img-responsive" src="css/images/matt.png" alt="Matt">
+            <a class="btn btn-default btn-lg btn-hire" href="#" role="button">Hire Me!</a>
           </div>
           <div class="col-md-4">
             <!-- right feature item 01 -->
@@ -215,65 +215,296 @@
       </div>
       <div class="container">
         <div class="row">
+
+          <!-- Matchday -->
           <div class="col-md-4">
-            <div class="work-overlay"><i class="fa fa-plus"></i></div>
-            <div class="thumbnail">
-              <img src="css/images/matchday.png" alt="...">
-              <div class="caption">
-                <h3>Matchday</h3>
-                <p>React web app</p>
+            <a href="#" data-toggle="modal" data-target="#matchday">
+              <div class="work-overlay"><i class="fa fa-plus"></i></div>
+              <div class="thumbnail">
+                <img src="css/images/matchday.png" alt="...">
+                <div class="caption">
+                  <h3>Matchday</h3>
+                  <p>Who do you support?</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Matchday Modal -->
+          <div class="modal fade" id="matchday" tabindex="-1" role="dialog" aria-labelledby="matchdayLabel">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h2 class="modal-title text-center" id="matchdayLabel">Matchday</h2>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="css/images/matchday.png" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                      <img src="css/images/matchday-profile.png" alt="">
+                    </div>
+                  </div>
+                  <div class="row content">
+                    <div class="col-md-12">
+                      <h4>Built a web app to help English Premier League soccer fans support and follow their favorite team.</h4>
+                      <ul>
+                        <li>Used React, CSS, Material UI, and Inkscape for the client application.</li>
+                        <li>Used Node, Express, Knex, PostgreSQL, Express-Validation, Joi, Axios, and Brunch for the server application.</li>
+                        <li>Consumed data from Bing Search API, Football-API, and used the SMS Twilio API RESTful services.</li>
+                        <li>Deployed the app to Heroku and published the code to GitHub.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>
+
+          <!-- Stay Up -->
           <div class="col-md-4">
-            <div class="work-overlay"><i class="fa fa-plus"></i></div>
-            <div class="thumbnail">
-              <img src="css/images/stayup.png" alt="...">
-              <div class="caption">
-                <h3>Stay Up</h3>
-                <p>Angular web app</p>
+            <a href="#" data-toggle="modal" data-target="#stayup">
+              <div class="work-overlay"><i class="fa fa-plus"></i></div>
+              <div class="thumbnail">
+                <img src="css/images/stayup.png" alt="...">
+                <div class="caption">
+                  <h3>Stay Up</h3>
+                  <p>Men's fashion lookbook</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Stay Up Modal -->
+          <div class="modal fade" id="stayup" tabindex="-1" role="dialog" aria-labelledby="stayupLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h2 class="modal-title text-center" id="stayupLabel">Stay Up</h2>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <img src="css/images/stayup.png" alt="...">
+                  </div>
+                  <div class="row content">
+                    <div class="col-md-12">
+                      <h4>Built a men's fashion look book web app which allows users to browse/save favorite products to their profile.</h4>
+                      <ul>
+                        <li>Used Angular, HTML, CSS, UI Bootstrap, Font Awesome, and Inkscape for the client application.</li>
+                        <li>Used Node, Express, Knex, PostgreSQL, Express-Validation, and Joi for the server application.</li>
+                        <li>Designed a many-to-many, self referencing relational database.</li>
+                        <li>Deployed the app to Heroku and published the code to GitHub.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>
+
+          <!-- Concert Clue -->
           <div class="col-md-4">
-            <div class="work-overlay"><i class="fa fa-plus"></i></div>
-            <div class="thumbnail">
-              <img src="css/images/concertclue.png" alt="...">
-              <div class="caption">
-                <h3>Concert Clue</h3>
-                <p>jQuery web app</p>
+            <a href="#" data-toggle="modal" data-target="#concert">
+              <div class="work-overlay"><i class="fa fa-plus"></i></div>
+              <div class="thumbnail">
+                <img src="css/images/concertclue.png" alt="...">
+                <div class="caption">
+                  <h3>Concert Clue</h3>
+                  <p>Search for concerts in your area</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Concert Clue Modal -->
+        <div class="modal fade" id="concert" tabindex="-1" role="dialog" aria-labelledby="concertLabel">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h2 class="modal-title text-center" id="concertLabel">Concert Clue</h2>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="css/images/concertclue.png" alt="...">
+                  </div>
+                  <div class="col-md-6">
+                    <img src="css/images/concert-profile.png" alt="">
+                  </div>
+                </div>
+                <div class="row content">
+                  <div class="col-md-12">
+                    <h4>Built a web app powered by Bands in Town API, that locates music venues based on users input and location.</h4>
+                    <ul>
+                      <li>Collaborated with team using agile methodologies and pair programming.</li>
+                      <li>Used jQuery, HTML, CSS, Materialize, Inkscape, and Google Fonts for the client application.</li>
+                      <li>Used Node, Express, Knex, and PostgreSQL for the server application.</li>
+                      <li>Managed issues via GitHub issue tracking and listed with ESLint.</li>
+                      <li>Deployed the app to Heroku and published the code to GitHub.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
         </div>
+
+
         <div class="row">
+          <!-- Bite Size -->
           <div class="col-md-4">
-            <div class="work-overlay"><i class="fa fa-plus"></i></div>
-            <div class="thumbnail">
-              <img src="css/images/bitesize.png" alt="...">
-              <div class="caption">
-                <h3>Bite Size</h3>
-                <p>React mobile first web app</p>
+            <a href="#" data-toggle="modal" data-target="#bitesize">
+              <div class="work-overlay"><i class="fa fa-plus"></i></div>
+              <div class="thumbnail">
+                <img src="css/images/bitesize.png" alt="...">
+                <div class="caption">
+                  <h3>Bite Size</h3>
+                  <p>Let's find some food</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Bite Size Modal -->
+          <div class="modal fade" id="bitesize" tabindex="-1" role="dialog" aria-labelledby="bitesizeLabel">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h2 class="modal-title text-center" id="bitesizeLabel">Bite Size</h2>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="css/images/bitesize-mobile.png" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                      <img src="css/images/bitesize-search.png" alt="">
+                    </div>
+                  </div>
+                  <div class="row content">
+                    <div class="col-md-12">
+                      <h4>Bitesize is a quick restaurant finder that takes a minimum of inputs and gives a minimum of outputs so as to cut down on the number of decisions one has to make when one really just wants something to eat. It's best viewed on mobile, but it'll work on desktop, too.</h4>
+                      <ul>
+                        <li>Collaborated with team using agile methodologies and pair programming.</li>
+                        <li>Used React, CSS, Material UI, and Inkscape for the client application.</li>
+                        <li>Used Node, Express, Knex, and PostgreSQL for the server application.</li>
+                        <li>Managed issues via GitHub issue tracking and listed with ESLint.</li>
+                        <li>Deployed the app to Heroku and published the code to GitHub.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>
+
+
+          <!-- Hi-Def -->
           <div class="col-md-4">
-            <div class="work-overlay"><i class="fa fa-plus"></i></div>
-            <div class="thumbnail">
-              <img src="css/images/hidef.png" alt="...">
-              <div class="caption">
-                <h3>Hi-Def</h3>
-                <p>React web app</p>
+            <a href="#" data-toggle="modal" data-target="#hidef">
+              <div class="work-overlay"><i class="fa fa-plus"></i></div>
+              <div class="thumbnail">
+                <img src="css/images/hidef.png" alt="...">
+                <div class="caption">
+                  <h3>Hi-Def</h3>
+                  <p>Watch videos in outer space</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Hi-Def Modal -->
+          <div class="modal fade" id="hidef" tabindex="-1" role="dialog" aria-labelledby="hidefLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h2 class="modal-title text-center" id="hidefLabel">Hi-Def</h2>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <img src="css/images/hidef-fullscreen.png" alt="">
+                  </div>
+                  <div class="row content">
+                    <div class="col-md-12">
+                      <h4>A simple video player that allows you to watch videos in space.</h4>
+                      <ul>
+                        <li>Used React ES6, CSS, Google Fonts, and Inkscape to build the client application.</li>
+                        <li>Used the YouTube API for the video search.</li>
+                        <li>Deployed the app to Heroku and published the code to GitHub.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>
+
+
+          <!-- Coffee Connection -->
           <div class="col-md-4">
-            <div class="work-overlay"><i class="fa fa-plus"></i></div>
-            <div class="thumbnail">
-              <img src="css/images/coffeeconnection.png" alt="...">
-              <div class="caption">
-                <h3>Coffee Connection</h3>
-                <p>JavaScript web app</p>
+            <a href="#" data-toggle="modal" data-target="#coffee">
+              <div class="work-overlay"><i class="fa fa-plus"></i></div>
+              <div class="thumbnail">
+                <img src="css/images/coffeeconnection.png" alt="...">
+                <div class="caption">
+                  <h3>Coffee Connection</h3>
+                  <p>Coffee + Wifi = Productivity</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Coffee Connection Modal -->
+          <div class="modal fade" id="coffee" tabindex="-1" role="dialog" aria-labelledby="coffeeLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h2 class="modal-title text-center" id="coffeeLabel">Coffee Connection</h2>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <img src="css/images/coffeeconnection.png" alt="">
+                    </div>
+                  </div>
+                  <div class="row content">
+                    <div class="col-md-12">
+                      <h4>Coffee shop locator, using Google Maps, that have wifi within 2 mile radius of your geolocation or location input.</h4>
+                      <ul>
+                        <li>Used JavaScript, HTML, CSS, and Inkscape to build the client application.</li>
+                        <li>Used Node, Express, Knex, and PostgreSQL for the server application.</li>
+                        <li>Used Foursquare API and Google Maps API services</li>
+                        <li>Deployed the app to Heroku and published the code to GitHub.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>

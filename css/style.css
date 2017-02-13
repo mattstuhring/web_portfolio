@@ -156,7 +156,33 @@ header .col-md-12 {
   width: 100%;
   border-radius: 50%;
   border: 5px solid aquamarine;
-  margin-top: 30px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.btn-hire,
+.btn-hire:focus,
+.btn-hire:active,
+.btn-hire:visited {
+  background: transparent;
+  border-color: #129CF3;
+  color: #129CF3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+}
+
+.btn-hire:hover {
+  background-color: #129CF3;
+  color: white;
 }
 
 .left-feature-item {
@@ -362,6 +388,15 @@ header .col-md-12 {
   font-weight: 700;
   text-align: center;
 }
+
+#matchday img, #stayup img, #concert img, #bitesize img, #hidef img, #coffee img {
+  width: 100%;
+}
+
+.modal-body .content {
+  margin-left: 20px;
+}
+
 /* -------------------- Download -------------------- */
 .links {
   background-color: #1a1a1a;
