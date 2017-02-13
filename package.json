@@ -1,0 +1,25 @@
+{
+  "name": "web_portfolio",
+  "version": "0.1.0",
+  "description": "Matt Stuhring web portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattstuhring/web_portfolio.git"
+  },
+  "author": "Matt Stuhring <whereyouatmatt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattstuhring/web_portfolio/issues"
+  },
+  "homepage": "https://github.com/mattstuhring/web_portfolio#readme",
+  "dependencies": {
+    "mailgun-js": "^0.8.1"
+  },
+  "engines": {
+  "node": "v7.0.0"
+  }
+}
