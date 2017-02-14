@@ -155,16 +155,21 @@ header .col-md-12 {
 }
 
 /* ---------------------- About --------------------- */
-.about {
+.history {
+  padding-top: 60px;
   padding-bottom: 15px;
 }
 
-.about img {
+.history img {
   width: 100%;
   border-radius: 50%;
   border: 5px solid aquamarine;
   margin-top: 15px;
   margin-bottom: 30px;
+}
+
+.history {
+  background-color: whitesmoke;
 }
 
 .btn-hire,
@@ -262,7 +267,8 @@ header .col-md-12 {
 
 /* -------------------- Skills ----- --------------- */
 .skills {
-  padding-bottom: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .skills i {
@@ -339,7 +345,7 @@ header .col-md-12 {
 
 /* -------------------- Work -------------------- */
 .work {
-  background-color: gainsboro;
+  background-color: whitesmoke;
   padding-bottom: 80px;
 }
 
@@ -416,8 +422,16 @@ header .col-md-12 {
   margin-left: 5px;
 }
 
+.modal-body .content h4 {
+  font-weight: 600;
+}
+
 .modal-body .content ul {
   margin-left: 35px;
+}
+
+.modal-body .content li {
+  margin-bottom: 10px;
 }
 
 
@@ -503,10 +517,15 @@ header .col-md-12 {
 /* ===================== Contact Me ============================ */
 .contact-me {
   padding-top: 50px;
-  padding-bottom: 120px;
+  padding-bottom: 275px;
+  background-image: url("images/seattle.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .contact-me-form .form-control {
+  font-family: 'Raleway', sans-serif;
   display: block;
   width: 100%;
   height: 50px;
@@ -514,11 +533,10 @@ header .col-md-12 {
   font-size: 14px;
   line-height: 21px;
   color: #555;
-  background-color: transparent;
-  border: 1px solid #aeaeae;
+  background-color: white;
+  border: 1px solid #129CF3;
   border-radius: 3px;
   margin-bottom: 15px;
-  opacity: 0.8;
   outline: 0px !important;
   transition: all 1s;
   -webkit-transition: all 1s;

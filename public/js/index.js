@@ -20,7 +20,7 @@ $(document).ready(function() {
     });
 
     $.toast({
-      title: 'Thank you!  I will get back to you ASAP!',
+      title: 'Thank you!  Your email was successful!',
       backgroundColor: 'rgba(50, 205, 50, 1)',
       textColor: '#fff',
       width: 'auto',
