@@ -1,5 +1,25 @@
 'use strict';
 
+$(document).ready(function() {
+  'use strict';
+
+  $('form').submit(function(event) {
+    event.preventDefault();
+
+    axios.post('/mail', {
+      name: $("#name").val(),
+      from: $("#email").val(),
+      subject: $("#subject").val(),
+      text: $("#message").val()
+    })
+    .then(function (response) {
+      console.log(response);
+    })
+    .catch(function (error) {
+      console.log(error);
+    });
+  });
+});
 
 
 // Show and hide menu bar
