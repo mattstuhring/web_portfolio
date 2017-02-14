@@ -72,6 +72,13 @@ font-family: "Source Sans Pro", sans-serif;
   -moz-transition: all 1s;
 }
 
+.navbar-default .navbar-nav > .active> a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: #129CF3;
+}
+
 /* --------------------- Header ------------------------ */
 
 header {
@@ -336,6 +343,10 @@ header .col-md-12 {
   padding-bottom: 80px;
 }
 
+.work a {
+  text-decoration: none;
+}
+
 .thumbnail {
   margin-bottom: 30px;
   border: none;
@@ -393,9 +404,22 @@ header .col-md-12 {
   width: 100%;
 }
 
-.modal-body .content {
-  margin-left: 20px;
+.modal-header h2 {
+  font-family: 'Mr Dafoe', cursive;
+  color: #129CF3;
+  font-size: 70px;
 }
+
+.modal-body .content {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.modal-body .content ul {
+  margin-left: 35px;
+}
+
 
 /* -------------------- Download -------------------- */
 .links {
@@ -478,8 +502,8 @@ header .col-md-12 {
 
 /* ===================== Contact Me ============================ */
 .contact-me {
-  padding-top: 10px;
-  padding-bottom: 80px;
+  padding-top: 50px;
+  padding-bottom: 120px;
 }
 
 .contact-me-form .form-control {

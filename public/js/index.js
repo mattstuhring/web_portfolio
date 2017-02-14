@@ -18,6 +18,22 @@ $(document).ready(function() {
     .catch(function (error) {
       console.log(error);
     });
+
+    $.toast({
+      title: 'Thank you!  I will get back to you ASAP!',
+      backgroundColor: 'rgba(50, 205, 50, 1)',
+      textColor: '#fff',
+      width: 'auto',
+      height: '40px',
+      lineheight: '20px',
+      duration: 10000
+     });
+
+
+    $("#name").val("");
+    $("#email").val("");
+    $("#subject").val("");
+    $("#message").val("")
   });
 });
 
@@ -78,6 +94,43 @@ $(document).ready(function() {
     }
   });
 });
+
+// active menu item on click
+$(document).ready(function() {
+  'use strict';
+
+  $('.navbar-nav li a').click(function() {
+    'use strict';
+
+    $('.navbar-nav li a').parent().removeClass('active');
+
+    $(this).parent().addClass('active');
+  });
+});
+
+// Highlight menu item on scroll
+$(document).ready(function() {
+  'use strict';
+
+  $(window).scroll(function() {
+    'use strict';
+
+    $('section').each(function() {
+      'use strict';
+
+      var elementID = $(this).attr('id');
+      var height = $(this).outerHeight();
+      var grttop = $(this).offset().top - 70;
+
+      if ($(window).scrollTop() > grttop && $(window).scrollTop() < grttop + height) {
+        $(".navbar-nav li a[href='#" + elementID + "']").parent().addClass('active');
+      } else {
+        $(".navbar-nav li a[href='#" + elementID + "']").parent().removeClass('active');
+      }
+    });
+  });
+});
+
 
 $('#matchday').modal(options);
 

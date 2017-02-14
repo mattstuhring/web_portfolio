@@ -16,7 +16,6 @@ router.post('/mail', (req, res, next) => {
   mailgun.messages().send(data, function (error, body) {
     console.log(body, 'this is the body');
   });
-
 });
 
 module.exports = router;
