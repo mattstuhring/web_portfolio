@@ -155,21 +155,17 @@ header .col-md-12 {
 }
 
 /* ---------------------- About --------------------- */
-.history {
-  padding-top: 60px;
-  padding-bottom: 15px;
+.about {
+  padding-bottom: 60px;
+  background-color: whitesmoke;
 }
 
-.history img {
+.about img {
   width: 100%;
   border-radius: 50%;
   border: 5px solid aquamarine;
   margin-top: 15px;
   margin-bottom: 30px;
-}
-
-.history {
-  background-color: whitesmoke;
 }
 
 .btn-hire,
@@ -267,21 +263,17 @@ header .col-md-12 {
 
 /* -------------------- Skills ----- --------------- */
 .skills {
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background-image: url('images/paper.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .skills i {
   color: #129CF3;
   font-size: 20px;
-}
-
-.tech-skills p {
-  font-family: 'Raleway', sans-serif;
-  position: relative;
-  left: 35px;
-  bottom: 25px;
-  font-size: 18px;
 }
 
 .skills h3 {
@@ -315,6 +307,14 @@ header .col-md-12 {
   margin-top: 10px;
   font-size: 25px;
   font-weight: 700;
+}
+
+.tech-skills p {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  left: 35px;
+  bottom: 25px;
+  font-size: 18px;
 }
 
 .education h3 {
