@@ -1,0 +1,48 @@
+/* Small Devices */
+@media only screen and (max-width: 767px) {
+  .work-overlay {
+    z-index: 1;
+    opacity: 0;
+    height: 100%;
+    width: 90%;
+    background-color: #129CF3;
+    position: absolute;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+  }
+
+  .work-overlay i {
+    font-size: 100px;
+    position: absolute;
+    left: 39%;
+    top: 33%;
+    right: 0;
+    bottom: 0;
+    color: white;
+  }
+
+  .header-overlay h1 {
+    margin-top: 0;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 80px;
+    color: aquamarine;
+  }
+
+}
+
+/* Small Devices and Tablets */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Medium Devices, Desktop */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Large Devices, Wide Screen */
+@media only screen and (max-width: 1200px) {
+
+}

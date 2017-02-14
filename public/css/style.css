@@ -82,7 +82,7 @@ font-family: "Source Sans Pro", sans-serif;
 /* --------------------- Header ------------------------ */
 
 header {
-  background-image: url('images/landing.jpg');
+  background-image: url('images/landing.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -116,10 +116,7 @@ header .col-md-12 {
   font-family: 'Mr Dafoe', cursive;
   font-size: 140px;
   color: aquamarine;
-}
-
-.header-overlay h1 span {
-  padding-left: 60px;
+  word-spacing: 30px;
 }
 
 .header-overlay h2 {
@@ -364,8 +361,8 @@ header .col-md-12 {
 .work-overlay {
   z-index: 1;
   opacity: 0;
-  height: 287px;
-  width: 360px;
+  height: 90%;
+  width: 93%;
   background-color: #129CF3;
   position: absolute;
   transition: all 1s;
@@ -381,8 +378,8 @@ header .col-md-12 {
 .work-overlay i {
   font-size: 100px;
   position: absolute;
-  left: 142px;
-  top: 92px;
+  left: 39%;
+  top: 33%;
   right: 0;
   bottom: 0;
   color: white;

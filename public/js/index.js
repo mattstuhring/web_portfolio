@@ -130,3 +130,11 @@ $(document).ready(function() {
     });
   });
 });
+
+// Add animation/initialization Wow
+$(document).ready(function() {
+  'use strict';
+
+  new WOW().init();
+
+});
