@@ -407,10 +407,15 @@ header .col-md-12 {
   width: 100%;
 }
 
+.modal-header {
+  background-color: #129CF3;
+}
+
 .modal-header h2 {
   font-family: 'Mr Dafoe', cursive;
-  color: #129CF3;
+  color: white;
   font-size: 70px;
+  line-height: 65px;
 }
 
 .modal-body .content {
@@ -431,6 +436,44 @@ header .col-md-12 {
   margin-bottom: 10px;
 }
 
+.modal-body .content li a {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.modal-footer {
+  background-color: #129CF3;
+}
+
+.modal-footer button {
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn-close,
+.btn-close:focus,
+.btn-close:active,
+.btn-close:visited {
+  background: transparent;
+  border-color: white;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+}
+
+.btn-close:hover {
+  background-color: white;
+  color: black;
+}
 
 /* -------------------- Download -------------------- */
 .links {
