@@ -1,5 +1,6 @@
 'use strict';
 
+// Contact form submit
 $(document).ready(function() {
   'use strict';
 
@@ -115,7 +116,7 @@ $(document).ready(function() {
   $(window).scroll(function() {
     'use strict';
 
-    $('section').each(function() {
+    $('section, header').each(function() {
       'use strict';
 
       var elementID = $(this).attr('id');

@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*
@@ -40,7 +41,7 @@ font-family: "Source Sans Pro", sans-serif;
   left: 50%;
   width: 60px;
   height: 1px;
-  background-color: #333;
+  background-color: aquamarine;
   margin-left: -30px;
 }
 
@@ -82,12 +83,12 @@ font-family: "Source Sans Pro", sans-serif;
 /* --------------------- Header ------------------------ */
 
 header {
-  background-image: url('images/landing.png');
+  background-image: url('../images/landing.png');
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   width: 100%;
   height: 750px;
+  background-attachment: fixed;
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -260,12 +261,16 @@ header .col-md-12 {
 
 /* -------------------- Skills ----- --------------- */
 .skills {
-  padding-top: 80px;
   padding-bottom: 60px;
-  background-image: url('images/paper.png');
+  background-image: url('../images/paper.png');
   background-position: center;
   background-repeat: no-repeat;
+  font-family: 'Raleway', sans-serif;
+  background-attachment: fixed;
   background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .skills i {
@@ -273,209 +278,60 @@ header .col-md-12 {
   font-size: 20px;
 }
 
-.skills h3 {
-  font-family: 'Raleway', sans-serif;
-}
-
 .skills h1 {
-  font-family: 'Mr Dafoe', cursive;
-  color: #129CF3;
-  font-size: 55px;
-  padding-bottom: 15px;
+  color: #333;
+  font-size: 40px;
   margin-bottom: 35px;
   position: relative;
 }
 
-.skills h1:after {
-    content: "";
-    position: absolute;
-    width: 60px;
-    height: 1px;
-    bottom: 0;
-    left: 43%;
-    border-bottom: 1px solid #333;
-}
-
-.education .fa-code {
-  font-size: 24px;
-}
-
 .tech-skills h3 {
-  margin-top: 10px;
   font-size: 25px;
   font-weight: 700;
 }
 
 .tech-skills p {
-  font-family: 'Raleway', sans-serif;
   position: relative;
   left: 35px;
   bottom: 25px;
   font-size: 18px;
 }
 
+.education .fa-code {
+  font-size: 24px;
+}
+
 .education h3 {
   font-size: 25px;
   font-weight: 700;
+  margin-top: 0px;
 }
 
 .education h4 {
-  font-family: 'Raleway', sans-serif;
   position: relative;
-  left: 42px;
+  margin-left: 42px;
   bottom: 32px;
   font-size: 18px;
   margin-bottom: 0px;
 }
 
-.education h4 span {
-  font-size: 12px;
+.education h5 {
   font-style: italic;
+  position: relative;
+  /*left: 42px;*/
+  margin-left: 42px;
+  bottom: 30px;
 }
 
 .education p {
-  font-family: 'Raleway', sans-serif;
   position: relative;
-  bottom: 20px;
-  margin-left: 90px;
-}
-
-/* -------------------- Work -------------------- */
-.work {
-  background-color: whitesmoke;
-  padding-bottom: 80px;
-}
-
-.work a {
-  text-decoration: none;
-}
-
-.thumbnail {
-  margin-bottom: 30px;
-  border: none;
-  border-radius: 0;
-  padding: 0;
   position: relative;
+  margin-left: 42px;
+  /*left: 42px;*/
+  bottom: 30px;
 }
 
-.work-overlay {
-  z-index: 1;
-  opacity: 0;
-  height: 90%;
-  width: 93%;
-  background-color: #129CF3;
-  position: absolute;
-  transition: all 1s;
-  -webkit-transition: all 1s;
-  -moz-transition: all 1s;
-  -o-transition: all 1s;
-}
-
-.work-overlay:hover {
-  opacity: 0.8;
-}
-
-.work-overlay i {
-  font-size: 100px;
-  position: absolute;
-  left: 39%;
-  top: 33%;
-  right: 0;
-  bottom: 0;
-  color: white;
-}
-
-.thumbnail h3 {
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-}
-
-.thumbnail .caption {
-  background-color: white;
-}
-
-.caption p {
-  font-family: 'Merriweather', serif;
-  color: grey;
-  font-style: italic;
-  font-weight: 700;
-  text-align: center;
-}
-
-#matchday img, #stayup img, #concert img, #bitesize img, #hidef img, #coffee img {
-  width: 100%;
-}
-
-.modal-header {
-  background-color: #129CF3;
-}
-
-.modal-header h2 {
-  font-family: 'Mr Dafoe', cursive;
-  color: white;
-  font-size: 70px;
-  line-height: 65px;
-}
-
-.modal-body .content {
-  font-family: 'Raleway', sans-serif;
-  margin-top: 20px;
-  margin-left: 5px;
-}
-
-.modal-body .content h4 {
-  font-weight: 600;
-}
-
-.modal-body .content ul {
-  margin-left: 35px;
-}
-
-.modal-body .content li {
-  margin-bottom: 10px;
-}
-
-.modal-body .content li a {
-  font-size: 20px;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.modal-footer {
-  background-color: #129CF3;
-}
-
-.modal-footer button {
-  font-family: 'Raleway', sans-serif;
-}
-
-.btn-close,
-.btn-close:focus,
-.btn-close:active,
-.btn-close:visited {
-  background: transparent;
-  border-color: white;
-  color: white;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 16px;
-  text-transform: uppercase;
-  border-radius: 3px;
-  transition: all 1s;
-  -webkit-transition: all 1s;
-  -o-transition: all 1s;
-  -moz-transition: all 1s;
-}
-
-.btn-close:hover {
-  background-color: white;
-  color: black;
-}
-
-/* -------------------- Download -------------------- */
+/* -------------------- Links -------------------- */
 .links {
   background-color: #1a1a1a;
   margin-top: -8px;
@@ -554,14 +410,232 @@ header .col-md-12 {
   opacity: 1;
 }
 
-/* ===================== Contact Me ============================ */
-.contact-me {
-  padding-top: 50px;
-  padding-bottom: 275px;
-  background-image: url("images/seattle.png");
-  background-position: center;
-  background-size: cover;
+/* ====================== Testimonials ======================= */
+.testimonial {
+  background-image: url("../images/brick.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-position: 50% 50%;
+}
+
+.testimonial-overlay {
+  background-color: rgba(31, 31, 31, 0.75);
+  padding-bottom: 80px;
+}
+
+.carousel {
+  padding-top: 30px;
+}
+
+.carousel-indicators {
+  bottom: -10px;
+}
+
+.carousel-inner .item img {
+  width: 30%;
+  border: 2px solid #129CF3;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.testimonial-caption {
+  padding-bottom: 70px;
+}
+
+.testimonial-caption h2 {
+  color: #129CF3;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+.testimonial-caption h4 {
+  color: #129CF3;
+}
+
+.testimonial-caption h4 span {
+  color: whitesmoke;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.testimonial-caption p {
+  color: whitesmoke;
+  font-size: 18px;
+  line-height: 27px;
+  padding-top: 30px;
+}
+
+.testimonial .section-title p {
+  color: whitesmoke;
+}
+
+/* -------------------- Work -------------------- */
+.work {
+  background-color: whitesmoke;
+  padding-bottom: 80px;
+}
+
+.work a {
+  text-decoration: none;
+}
+
+.work .section-title h2:after {
+  height: 2px;
+}
+
+.thumbnail {
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  position: relative;
+}
+
+.work-overlay {
+  z-index: 1;
+  opacity: 0;
+  height: 90%;
+  width: 93%;
+  background-color: #129CF3;
+  position: absolute;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+}
+
+.work-overlay:hover {
+  opacity: 0.8;
+}
+
+.work-overlay i {
+  font-size: 100px;
+  position: absolute;
+  left: 39%;
+  top: 33%;
+  right: 0;
+  bottom: 0;
+  color: white;
+}
+
+.thumbnail h3 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.thumbnail .caption {
+  background-color: white;
+}
+
+.caption p {
+  font-family: 'Merriweather', serif;
+  color: grey;
+  font-style: italic;
+  text-align: center;
+}
+
+#matchday img, #stayup img, #concert img, #bitesize img, #hidef img, #coffee img {
+  width: 100%;
+}
+
+.modal-header {
+  background-color: #129CF3;
+}
+
+.modal-header h2 {
+  font-family: 'Mr Dafoe', cursive;
+  color: white;
+  font-size: 70px;
+  line-height: 65px;
+}
+
+.modal-body .content {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.modal-body .content h4 {
+  font-weight: 600;
+}
+
+.modal-body .content ul {
+  margin-left: 35px;
+}
+
+.modal-body .content li {
+  margin-bottom: 10px;
+}
+
+.modal-body .content li a {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.modal-footer {
+  background-color: #129CF3;
+}
+
+.modal-footer button {
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn-close,
+.btn-close:focus,
+.btn-close:active,
+.btn-close:visited {
+  background: transparent;
+  border-color: white;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+}
+
+.btn-close:hover {
+  background-color: white;
+  color: black;
+}
+
+/* ===================== Contact Me ============================ */
+.contact-overlay {
+  background-color: rgba(31, 31, 31, 0.5);
+  padding-bottom: 160px;
+}
+
+.contact-me {
+  background-image: url("../images/seattle.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.contact-me .section-title p {
+  color: whitesmoke;
+}
+
+.contact-me-form {
+  padding: 70px;
 }
 
 .contact-me-form .form-control {
