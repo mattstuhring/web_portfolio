@@ -162,7 +162,7 @@ header .col-md-12 {
   width: 100%;
   border-radius: 50%;
   border: 5px solid aquamarine;
-  margin-top: 15px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -412,7 +412,7 @@ header .col-md-12 {
 
 /* ====================== Testimonials ======================= */
 .testimonial {
-  background-image: url("../images/brick.jpg");
+  background-image: url("../images/hand.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -455,19 +455,15 @@ header .col-md-12 {
 }
 
 .testimonial-caption h4 {
-  color: #129CF3;
-}
-
-.testimonial-caption h4 span {
-  color: whitesmoke;
-  font-style: italic;
+  color: aquamarine;
   font-weight: 300;
 }
 
 .testimonial-caption p {
   color: whitesmoke;
-  font-size: 18px;
-  line-height: 27px;
+  font-style: italic;
+  font-size: 25px;
+  line-height: 36px;
   padding-top: 30px;
 }
 
@@ -616,11 +612,11 @@ header .col-md-12 {
 /* ===================== Contact Me ============================ */
 .contact-overlay {
   background-color: rgba(31, 31, 31, 0.5);
-  padding-bottom: 160px;
+  padding-bottom: 110px;
 }
 
 .contact-me {
-  background-image: url("../images/seattle.jpeg");
+  background-image: url("../images/seattle.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
