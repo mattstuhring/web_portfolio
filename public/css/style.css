@@ -472,6 +472,11 @@ header .col-md-12 {
 }
 
 /* -------------------- Work -------------------- */
+
+.matchday-construction {
+  color: red;
+}
+
 .work {
   background-color: whitesmoke;
   padding-bottom: 80px;
@@ -550,6 +555,10 @@ header .col-md-12 {
   color: white;
   font-size: 70px;
   line-height: 65px;
+}
+
+.modal-body {
+  padding: 30px;
 }
 
 .modal-body .content {
