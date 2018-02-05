@@ -353,6 +353,57 @@
       <div class="container">
         <div class="row">
 
+          <!-- Laundry Sucks. -->
+          <div class="col-md-4 wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+            <a href="#" data-toggle="modal" data-target="#laundry-sucks" id="laundry-sucksModal">
+              <div class="work-overlay"><i class="fa fa-plus"></i></div>
+              <div class="thumbnail">
+                <img src="images/laundry-sucks-home.png" alt="...">
+                <div class="caption">
+                  <h3>Laundry Sucks.</h3>
+                  <p>Never do your own laundry again!</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Laundry Sucks. Modal -->
+          <div class="modal fade" id="laundry-sucks" tabindex="-1" role="dialog" aria-labelledby="laundry-sucksLabel">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h2 class="modal-title text-center" id="laundry-sucksLabel">Laundry Sucks.</h2>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="images/laundry-sucks-home.png" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                      <img src="images/laundry-sucks-customer.png" alt="">
+                    </div>
+                  </div>
+                  <div class="row content">
+                    <div class="col-md-12">
+                      <h4>A responsive web app for a laundry service startup.</h4>
+                      <ul>
+                        <li>Used React, CSS, Bootstrap, Google Fonts, Font Awesome, and Inkscape for the client application.</li>
+                        <li>Used Node, Express, Knex, PostgreSQL, Axios, Heroku, and Webpack for the server application.</li>
+                        <li>Stripe integration for payment processing as well as a Venmo option which is processed by Admin.</li>
+                        <li>Deployed the app to <a href="https://laundry-service.herokuapp.com/" target="_blank">Heroku</a> and published the code to <a href="https://github.com/mattstuhring/laundry_service" target="_blank">GitHub</a>.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <a class="btn btn-default btn-lg btn-close" href="#" role="button" data-dismiss="modal">Close</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
           <!-- Matchday -->
           <div class="col-md-4 wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
             <a href="#" data-toggle="modal" data-target="#matchday" id="matchdayModal">
@@ -449,6 +500,11 @@
               </div>
             </div>
           </div>
+        </div>
+
+
+
+        <div class="row">
 
           <!-- Concert Clue -->
           <div class="col-md-4 wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
@@ -463,47 +519,45 @@
               </div>
             </a>
           </div>
-        </div>
 
-        <!-- Concert Clue Modal -->
-        <div class="modal fade" id="concert" tabindex="-1" role="dialog" aria-labelledby="concertLabel">
-          <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h2 class="modal-title text-center" id="concertLabel">Concert Clue</h2>
-              </div>
-              <div class="modal-body">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="images/concertclue.png" alt="...">
+          <!-- Concert Clue Modal -->
+          <div class="modal fade" id="concert" tabindex="-1" role="dialog" aria-labelledby="concertLabel">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h2 class="modal-title text-center" id="concertLabel">Concert Clue</h2>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img src="images/concertclue.png" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                      <img src="images/concert-profile.png" alt="">
+                    </div>
                   </div>
-                  <div class="col-md-6">
-                    <img src="images/concert-profile.png" alt="">
+                  <div class="row content">
+                    <div class="col-md-12">
+                      <h4>A web app powered by Bands in Town API, that locates music venues based on users input and location.</h4>
+                      <ul>
+                        <li>Collaborated with team using agile methodologies and pair programming.</li>
+                        <li>Used jQuery, HTML, CSS, Materialize, Inkscape, and Google Fonts for the client application.</li>
+                        <li>Used Node, Express, Knex, and PostgreSQL for the server application.</li>
+                        <li>Managed issues via GitHub issue tracking and listed with ESLint.</li>
+                        <li>Deployed the app to <a href="https://mattstuhring-concertclue.herokuapp.com/" target="_blank">Heroku</a> and published the code to <a href="https://github.com/mattstuhring/concert_clue" target="_blank">GitHub</a>.</li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
-                <div class="row content">
-                  <div class="col-md-12">
-                    <h4>A web app powered by Bands in Town API, that locates music venues based on users input and location.</h4>
-                    <ul>
-                      <li>Collaborated with team using agile methodologies and pair programming.</li>
-                      <li>Used jQuery, HTML, CSS, Materialize, Inkscape, and Google Fonts for the client application.</li>
-                      <li>Used Node, Express, Knex, and PostgreSQL for the server application.</li>
-                      <li>Managed issues via GitHub issue tracking and listed with ESLint.</li>
-                      <li>Deployed the app to <a href="https://mattstuhring-concertclue.herokuapp.com/" target="_blank">Heroku</a> and published the code to <a href="https://github.com/mattstuhring/concert_clue" target="_blank">GitHub</a>.</li>
-                    </ul>
-                  </div>
+                <div class="modal-footer">
+                  <a class="btn btn-default btn-lg btn-close" href="#" role="button" data-dismiss="modal">Close</a>
                 </div>
-              </div>
-              <div class="modal-footer">
-                <a class="btn btn-default btn-lg btn-close" href="#" role="button" data-dismiss="modal">Close</a>
               </div>
             </div>
           </div>
-        </div>
 
 
-        <div class="row">
           <!-- Bite Size -->
           <div class="col-md-4 wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
             <a href="#" data-toggle="modal" data-target="#bitesize" id="bitesizeModal">
@@ -557,7 +611,7 @@
 
 
           <!-- Hi-Def -->
-          <div class="col-md-4 wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
+          <!-- <div class="col-md-4 wow zoomIn" data-wow-duration="1s" data-wow-delay=".5s">
             <a href="#" data-toggle="modal" data-target="#hidef" id="hidefModal">
               <div class="work-overlay"><i class="fa fa-plus"></i></div>
               <div class="thumbnail">
@@ -568,10 +622,10 @@
                 </div>
               </div>
             </a>
-          </div>
+          </div> -->
 
           <!-- Hi-Def Modal -->
-          <div class="modal fade" id="hidef" tabindex="-1" role="dialog" aria-labelledby="hidefLabel">
+          <!-- <div class="modal fade" id="hidef" tabindex="-1" role="dialog" aria-labelledby="hidefLabel">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
                 <div class="modal-header">
@@ -600,7 +654,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
 
           <!-- Coffee Connection -->
